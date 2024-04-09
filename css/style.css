@@ -1,0 +1,242 @@
+body {
+    width: 1440px;
+    height: 7187px;
+    margin: 0px auto;
+    padding: 0px;
+    Border: 0px;
+    background: #002E5D;
+    z-index: 0;
+}
+
+#headerImg {
+    width: 108px;
+    height: 99px;
+    position: relative;
+    place-self: center;
+    margin-left: 24px;
+}
+.logoText {
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "GRAD" 0;
+    align-content:center;
+    font-size: 40px;
+    letter-spacing: 5%;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 40px;
+    margin-left: -70px;
+    float: left;
+    height: 43px;
+    width: 328px;
+    color: #181818;
+    text-decoration: none;
+    }
+
+.topOfPage {
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "GRAD" 0;
+    align-content:center;
+    font-size: 40px;
+    letter-spacing: 5%;
+    padding-bottom: 24px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 40px;
+    margin: 0px;
+    float: left;
+    height: 43px;
+    width: 328px;
+    color: #181818;
+    text-decoration: none;
+}    
+
+.titleText {
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "GRAD" 0;
+    align-content: center;
+    font-size: 24px;
+    letter-spacing: 5%;
+    padding: 0;
+    margin-right: 0;
+    float: left;
+    height: 43px;
+    width: 328px;
+    color: #181818;
+    text-decoration: none;
+    }
+
+#mainNavigation {
+    display: flex;
+    background-color: #00BD87;
+    height: 123px;
+    border-bottom: 5px solid #181818;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    width: 1440px;
+    margin: 0px auto;
+    padding: 0px;
+    Border-bottom: solid 5px #181818;
+}
+
+.rightNav {
+    list-style-type: none;
+    width:100%;
+    height: 123px;
+    padding-right: 24px;
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.menuOption {
+    display:inline-block;
+    font-family:"Roboto Flex", sans-serif;
+    font-size: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 46px;
+    padding-bottom: 12px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.menuOption a {
+    text-decoration: none;
+    color: #181818;
+}
+
+.menuOption:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: #181818;
+}
+
+#heroSection {
+    display: flex;
+    height: 972px;
+    width: 100%;
+    background-color: #F7F7F7;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    z-index: 1;
+    margin: 0px auto;
+    padding: 0px auto;
+    border: 0px;
+}
+
+.heroTextContainer {
+    /* heroTextAnimation */
+    position: absolute;
+    width: 713px;
+    height: 120px;
+    left: 142px;
+    top: 486px;
+}
+
+.heroText1, .heroText2 {
+    font-family: "Rosarivo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.magic {
+    font-family: "Rosarivo", cursive;
+    font-size: 64px;
+    display: inline-block;
+}
+
+.heroImage {
+    z-index: 0;
+    height: 679px;
+    width: 595px;
+    position: absolute;
+    top: 302.06px;
+}
+
+.waveContainer {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: -100px;
+}
+
+#wave1 {
+    width: 100%;
+    z-index: 1;
+}
+
+#caseStudies {
+    background: linear-gradient(90deg, #FAF1CA -30.97%, #F59171);
+    margin: auto;
+    width: 1440px;
+    border: 0px;
+    padding: 0px;
+    z-index: 1;
+}
+
+.wave2 {
+    width: 100%;
+    border: 0;
+    height: auto;
+    z-index: 1;
+    margin-bottom: -50px;
+    padding: 0;
+    background-color: #F7F7F7;
+}
+
+#wave3 {
+    width: 100%;
+    border: 0;
+    height: auto;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -50px;
+}
+
+#aboutMe {
+    background: #F7F7F7;
+}
+
+#resumeSection {
+   background: linear-gradient(90deg, #FAF1CA -30.97%, #F59171);
+   width: 1440px;
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+#webResume{
+    background: #f1f1f1;
+    width: 1204px;
+    margin: 0 auto;
+}
+
+
+#footer {
+    background: #181818;
+    border-top: solid 5px #00BD87;
+    color: #F7F7F7;
+}
